@@ -1,0 +1,12 @@
+appId: nnextron-app
+productName: nextron-app
+copyright: Copyright © djo
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
